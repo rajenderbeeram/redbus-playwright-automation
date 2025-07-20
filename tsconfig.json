@@ -1,0 +1,28 @@
+// {
+//   "compilerOptions": {
+//     "target": "ESNext",
+//     "module": "CommonJS",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "outDir": "dist",
+//     "types": ["node", "playwright"]
+//   },
+//   "include": ["**/*.ts"]
+// }
+
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "outDir": "dist",
+    "types": ["node", "playwright", "@cucumber/cucumber"]
+  },
+ "include": ["features/**/*.ts", "pages/**/*.ts", "support/**/*.ts"]
+//   "include": ["**/*.ts"]
+}

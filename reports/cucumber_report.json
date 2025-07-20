@@ -1,0 +1,144 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "bus-booking;booking-a-bus-from-mumbai-to-pune-on-coming-saturday",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Booking a bus from Mumbai to Pune on coming Saturday",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 580891084
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I launch the RedBus website",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 462598999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I search buses from \"Mumbai\" to \"Pune\" for this Saturday",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9731955625
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I click on \"Search Buses\"",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251254499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I apply filters: \"Primo\", \"Evening\", and \"Live Tracking\"",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4073400750
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "I scroll and select the bus with the cheapest fare",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2178309457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I select a seat and boarding & dropping points",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10385294916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I fill contact and passenger details and opt for insurance",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:42"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4134936249
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I proceed with UPI payment using ID \"rajenderbeeram-1@okaxis\"",
+            "match": {
+              "location": "step-definitions/redbusBooking.steps.ts:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3767440291
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 129955417
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "bus-booking",
+    "line": 14,
+    "keyword": "Feature",
+    "name": "Bus Booking",
+    "tags": [],
+    "uri": "features/redbusBooking.feature"
+  }
+]
