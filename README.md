@@ -10,22 +10,23 @@ This project automates the end-to-end flow of booking a bus on RedBus (https://w
 **Folder Structure**
 
 redbus-playwright-automation/
-|-- features/ # Cucumber feature files
-| `-- redbusBooking.feature
-|-- pages/ # Page Object classes
-| |-- HomePage.ts
-| |-- ResultsPage.ts
-| |-- SeatSelectionPage.ts
-| |-- PassengerDetailsPage.ts
-| `-- PaymentPage.ts
-|-- step-definitions/ # Step definitions for scenarios
-| `-- redbusBooking.steps.ts
-|-- support/ # Hooks, World file, config
-| |-- hooks.ts
-| `-- world.ts
-|-- playwright.config.ts # Playwright test configuration
-|-- tsconfig.json # TypeScript config
-`-- package.json # Project dependencies and scripts
+├── features/                   # Cucumber feature files
+│   └── redbusBooking.feature
+├── pages/                      # Page Object classes
+│   ├── HomePage.ts
+│   ├── ResultsPage.ts
+│   ├── SeatSelectionPage.ts
+│   ├── PassengerDetailsPage.ts
+│   └── PaymentPage.ts
+├── step-definitions/          # Step definitions for scenarios
+│   └── redbusBooking.steps.ts
+├── support/                   # Hooks, World file, config
+│   ├── hooks.ts
+│   └── world.ts
+├── playwright.config.ts       # Playwright test configuration
+├── tsconfig.json              # TypeScript config
+└── package.json               # Project dependencies and scripts
+
 
 **Automated Scenario**
 Scenario: Booking a bus from Mumbai to Pune on coming Saturday
